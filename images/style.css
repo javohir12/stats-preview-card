@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600&display=swap');
+* {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 800px;
+    background: #0A0C1C;
+}
+
+.box {
+    width: 1110px;
+    height: 446px;
+    margin: auto;
+    padding: 71px 95px 25px 72px;
+    color: #ffff;
+    background: #1B1937;
+    border-radius: 8px;
+}
+
+.text {
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.span {
+    color: #AB5CDB;
+}
+
+.text2 {
+    margin-top: 100px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.text3 {
+    margin-top: 100px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.text4 {
+    margin-bottom: 5px;
+    margin-top: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    opacity: 0.75;
+}
+
+.flex {
+    display: flex;
+    margin: auto;
+    gap: 21px;
+}
+
+.div {
+    margin-right: 63px;
+}
+
+.div2 {
+    margin-right: 63px;
+}
+
+.div3 {
+    margin-right: 63px;
+}
+
+.img {
+    border-radius: 0 8px 8px 0;
+    margin-TOP: -172px;
+    margin-left: 500px;
+    width: 540px;
+    height: 446px;
+    background: linear-gradient(#AB5CDB75, #AB5CDB75), url('./image-header-desktop.jpg') no-repeat center/cover;
+}
